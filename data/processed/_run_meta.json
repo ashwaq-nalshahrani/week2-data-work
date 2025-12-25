@@ -1,0 +1,16 @@
+{
+  "rows_in_orders_raw": 100,
+  "rows_in_users": 104,
+  "rows_out_analytics": 100,
+  "missing_created_at": 7,
+  "country_match_rate": 1.0,
+  "config": {
+    "root": "C:\\Users\\\u0627\u0634\u0648\u0627\u0642\\bootcamp\\week2-data-work",
+    "raw_orders": "C:\\Users\\\u0627\u0634\u0648\u0627\u0642\\bootcamp\\week2-data-work\\data\\raw\\orders.csv",
+    "raw_users": "C:\\Users\\\u0627\u0634\u0648\u0627\u0642\\bootcamp\\week2-data-work\\data\\raw\\users.csv",
+    "out_orders_clean": "C:\\Users\\\u0627\u0634\u0648\u0627\u0642\\bootcamp\\week2-data-work\\data\\processed\\orders_clean.parquet",
+    "out_users": "C:\\Users\\\u0627\u0634\u0648\u0627\u0642\\bootcamp\\week2-data-work\\data\\processed\\users.parquet",
+    "out_analytics": "C:\\Users\\\u0627\u0634\u0648\u0627\u0642\\bootcamp\\week2-data-work\\data\\processed\\analytics_table.parquet",
+    "run_meta": "C:\\Users\\\u0627\u0634\u0648\u0627\u0642\\bootcamp\\week2-data-work\\data\\processed\\_run_meta.json"
+  }
+}
