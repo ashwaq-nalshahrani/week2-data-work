@@ -104,18 +104,18 @@ def main():
     log.info("wrote: %s", out_path)
 
 
-summary = (
-    joined
-    .groupby("country", dropna=False)
-    .agg(
-        n=("order_id", "size"),
-        revenue=("amount", "sum"),
+    summary = (
+        joined.groupby("country"
+    , dropna=False)
+        .agg(
+            n=("order_id", "size"),
+            revenue=("amount", "sum"),
+        )
+        .reset_index()
+        .sort_values("revenue", ascending=False)
     )
-    .reset_index()
-    .sort_values("revenue", ascending=False)
-)
 
-print(summary)
+    print(summary)
 
-if __name__ == "__main__":
-    main()
+    if __name__ == "__main__":
+        main()
